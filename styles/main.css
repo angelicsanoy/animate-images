@@ -1,0 +1,84 @@
+.dogs {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.dogs img {
+  border: 8px solid #4f6dc9;
+  height: 200px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+}
+.dogs img:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.dog1:hover {
+  transform: scale(1.3) translate(-40px);
+}
+
+.dog2:hover {
+  transform: scale(1.3);
+}
+
+.dog3:hover {
+  transform: scale(1.3) translate(40px);
+}
+
+.cats {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.cats img {
+  border: 8px solid #4f6dc9;
+  height: 200px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+}
+.cats img:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.cat1:hover, .cat3:hover {
+  transform: scale(1.3) rotate(10deg);
+}
+
+.cat2:hover {
+  transform: scale(1.3) rotate(-10deg);
+}
+
+.animals {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.animals img {
+  height: 200px;
+  transition: all 0.5s ease;
+  vertical-align: middle;
+  width: 300px;
+}
+.animals img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.wrapper {
+  border: 8px solid #4f6dc9;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */
