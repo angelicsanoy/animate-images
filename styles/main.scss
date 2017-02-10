@@ -2,3 +2,10 @@
 @import 'dogs.scss';
 @import 'cats.scss';
 @import 'animals.scss';
+@import 'landscapes.scss';
+
+@media screen and (max-width: 1000px) {
+  section {
+    flex-wrap: wrap;
+  }
+}

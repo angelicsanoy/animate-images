@@ -28,3 +28,9 @@
 .dog3:hover {
   transform: scale(1.3) translate(40px);
 }
+
+@media screen and (max-width: 420px) {
+  .dog1:hover, .dog2:hover, .dog3:hover {
+    transform: scale(1.1);
+  }
+}

@@ -29,6 +29,11 @@
   transform: scale(1.3) translate(40px);
 }
 
+@media screen and (max-width: 420px) {
+  .dog1:hover, .dog2:hover, .dog3:hover {
+    transform: scale(1.1);
+  }
+}
 .cats {
   align-items: center;
   display: flex;
@@ -56,6 +61,15 @@
   transform: scale(1.3) rotate(-10deg);
 }
 
+@media screen and (max-width: 420px) {
+  .cat1:hover, .cat3:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .cat2:hover {
+    transform: scale(1.1) rotate(-5deg);
+  }
+}
 .animals {
   align-items: center;
   display: flex;
@@ -79,6 +93,30 @@
   display: inline-block;
   margin: 10px;
   overflow: hidden;
+}
+
+.landscapes {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.landscapes img {
+  border: 8px solid #4f6dc9;
+  height: 200px;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+}
+.landscapes img:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  section {
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

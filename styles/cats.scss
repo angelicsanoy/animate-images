@@ -24,3 +24,13 @@
 .cat2:hover {
   transform: scale(1.3) rotate(-10deg);
 }
+
+@media screen and (max-width: 420px) {
+  .cat1:hover, .cat3:hover {
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  .cat2:hover {
+    transform: scale(1.1) rotate(-5deg);
+  }
+}
