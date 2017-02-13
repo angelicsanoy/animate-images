@@ -26,6 +26,11 @@
 }
 
 @media screen and (max-width: 420px) {
+  .cats img {
+    height: 170px;
+    width: 260px;
+  }
+
   .cat1:hover, .cat3:hover {
     transform: scale(1.1) rotate(5deg);
   }

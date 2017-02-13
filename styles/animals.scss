@@ -5,10 +5,10 @@
   justify-content: center;
   margin-top: 50px;
   img {
-    height: 200px;
+    height: 100%;
     transition: all 0.5s ease;
     vertical-align: middle;
-    width: 300px;
+    width: 100%;
     &:hover {
       cursor: pointer;
       transform: scale(1.2);
@@ -18,7 +18,15 @@
 
 .wrapper {
   border: 8px solid #4f6dc9;
-  display: inline-block;
+  height: 200px;
   margin: 10px;
   overflow: hidden;
+  width: 300px;
+}
+
+@media screen and (max-width: 420px) {
+  .wrapper {
+    height: 170px;
+    width: 260px;
+  }
 }
