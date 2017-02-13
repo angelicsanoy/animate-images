@@ -53,12 +53,12 @@ span {
   color: #fff;
   font-family: sans-serif;
   font-size: 40px;
-  top: 40%;
-  right: 22%;
-  position: absolute;
   opacity: 0;
-  visibility: hidden;
+  position: absolute;
+  right: 22%;
+  top: 40%;
   transition: visibility 0.5s, opacity 0.5s;
+  visibility: hidden;
   z-index: 1;
 }
 
