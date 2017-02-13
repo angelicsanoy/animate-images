@@ -196,19 +196,71 @@ span {
   justify-content: center;
   margin-top: 50px;
 }
-.landscapes img {
+
+.landscape {
   border: 8px solid #4f6dc9;
   height: 200px;
   margin: 10px;
-  transition: all 0.3s ease-in-out;
+  position: relative;
   width: 300px;
 }
-.landscapes img:hover {
-  cursor: pointer;
+
+.landscape1 {
+  background: url("../img/landscape1.jpg");
+  background-size: cover;
 }
 
+.landscape2 {
+  background: url("../img/landscape2.jpg");
+  background-size: cover;
+}
+
+.landscape3 {
+  background: url("../img/landscape3.jpg");
+  background-size: cover;
+}
+
+.boy {
+  position: absolute;
+  left: 35%;
+  transition: all 0.5s ease;
+  top: 5%;
+}
+.boy:hover {
+  cursor: pointer;
+  left: 40%;
+  top: 20%;
+  transform: scale(1.1);
+}
+
+.fox {
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  transition: all 1s ease;
+}
+.fox:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.boat {
+  bottom: 16%;
+  position: absolute;
+  right: -5%;
+}
+.boat:hover {
+  cursor: pointer;
+  animation: rock-boat 2s ease-in-out infinite;
+}
+
+@keyframes rock-boat {
+  50% {
+    transform: translateX(-10px) rotate(5deg);
+  }
+}
 @media screen and (max-width: 420px) {
-  .landscapes img {
+  .landscape {
     height: 170px;
     width: 260px;
   }
