@@ -37,8 +37,8 @@
   &:hover {
     cursor: pointer;
     left: 40%;
-    top: 20%;
-    transform: scale(1.1);
+    top: 15%;
+    transform: scale(1.2);
   }
 }
 
@@ -49,7 +49,7 @@
   transition: all 1s ease;
   &:hover {
     cursor: pointer;
-    transform: rotate(360deg);
+    opacity: 0.2;
   }
 }
 

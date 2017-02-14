@@ -170,12 +170,12 @@ span {
   color: #fff;
   font-family: sans-serif;
   font-size: 40px;
-  top: 40%;
-  right: 22%;
-  position: absolute;
   opacity: 0;
-  visibility: hidden;
+  position: absolute;
+  right: 22%;
+  top: 40%;
   transition: visibility 0.5s, opacity 0.5s;
+  visibility: hidden;
   z-index: 1;
 }
 
@@ -221,27 +221,27 @@ span {
 }
 
 .boy {
-  position: absolute;
   left: 35%;
-  transition: all 0.5s ease;
+  position: absolute;
   top: 5%;
+  transition: all 0.5s ease;
 }
 .boy:hover {
   cursor: pointer;
   left: 40%;
-  top: 20%;
-  transform: scale(1.1);
+  top: 15%;
+  transform: scale(1.2);
 }
 
 .fox {
-  position: absolute;
-  left: 30%;
   bottom: 10%;
+  left: 30%;
+  position: absolute;
   transition: all 1s ease;
 }
 .fox:hover {
   cursor: pointer;
-  transform: rotate(360deg);
+  opacity: 0.2;
 }
 
 .boat {
@@ -250,8 +250,8 @@ span {
   right: -5%;
 }
 .boat:hover {
-  cursor: pointer;
   animation: rock-boat 2s ease-in-out infinite;
+  cursor: pointer;
 }
 
 @keyframes rock-boat {
